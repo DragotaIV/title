@@ -1,38 +1,47 @@
-import React from 'react'
-import { Container, Tab, TabContainer, Row, Col, Nav } from 'react-bootstrap'
-import { ProjectCard } from './ProjectCard'
-import { Circles } from 'react-loader-spinner'
+/* eslint-disable */
+import React from 'react';
+import { Container, Tab, TabContainer, Row, Col, Nav } from 'react-bootstrap';
+import { Circles } from 'react-loader-spinner';
+import { ProjectCard } from './ProjectCard';
 
 export const Projects = () => {
   const cats = [
-    { id: 1, name: 'All' },
-    { id: 2, name: 'Landing' },
-    { id: 3, name: 'JS' },
-    { id: 4, name: 'React' },
-  ]
+    {
+      id: 1, name: 'All',
+    },
+    {
+      id: 2, name: 'Landing',
+    },
+    {
+      id: 3, name: 'JS',
+    },
+    {
+      id: 4, name: 'React',
+    },
+  ];
 
-  const [collections, setCollections] = React.useState([])
-  const [categoryId, setCategoryId] = React.useState('All')
-  const [isLoading, setIsLoading] = React.useState(true)
+  const [collections, setCollections] = React.useState([]);
+  const [categoryId, setCategoryId] = React.useState('All');
+  const [isLoading, setIsLoading] = React.useState(true);
 
   React.useEffect(() => {
-    setIsLoading(true)
+    setIsLoading(true);
 
-    const category = categoryId !== 'All' ? `category=${categoryId}` : ''
+    const category = categoryId !== 'All' ? `category=${categoryId}` : '';
 
     fetch(`https://63cb0c51f36cbbdfc764f902.mockapi.io/colections?${category}`)
-      .then((resp) => resp.json())
+      .then(resp => resp.json())
       .then((json) => {
-        setCollections(json)
+        setCollections(json);
       })
 
       .catch((err) => {
-        console.warn(err)
-        alert('Помилка при отриманні')
+        console.warn(err);
+        alert('Помилка при отриманні');
       })
 
-      .finally(() => setIsLoading(false))
-  }, [categoryId])
+      .finally(() => setIsLoading(false));
+  }, [categoryId]);
 
   return (
     <section className="project" id="project">
@@ -46,16 +55,17 @@ export const Projects = () => {
           <TabContainer id="projects-tabs" defaultActiveKey="All">
             <Nav
               variant="pills"
-              className="nav-pills mb-5 justify-content-center align-content-center  "
+              className="nav-pills
+                mb-5 justify-content-center align-content-center"
               id="pills-tab"
             >
               {isLoading ? (
                 <h1>Downloading...</h1>
               ) : (
-                cats.map((obj) => (
+                cats.map(obj => (
                   <Nav.Item
                     onClick={() => {
-                      setCategoryId(obj.name)
+                      setCategoryId(obj.name);
                     }}
                     className={categoryId === obj.name ? 'active' : ''}
                     key={obj.name}
@@ -66,7 +76,7 @@ export const Projects = () => {
               )}
             </Nav>
             <Tab.Content>
-              {cats.map((cat) => (
+              {cats.map(cat => (
                 <Tab.Pane eventKey={cat.name} key={cat.id}>
                   <Row>
                     {isLoading ? (
@@ -76,11 +86,12 @@ export const Projects = () => {
                         color="#4A2FBD"
                         ariaLabel="circles-loading"
                         wrapperStyle={{}}
-                        wrapperClass="justify-content-center align-content-center"
+                        wrapperClass="justify-content-center
+                         align-content-center"
                         visible={true}
                       />
                     ) : (
-                      collections.map((project) => (
+                      collections.map(project => (
                         <ProjectCard
                           key={project.id}
                           name={project.name}
@@ -98,5 +109,5 @@ export const Projects = () => {
         </Row>
       </Container>
     </section>
-  )
-}
+  );
+};
