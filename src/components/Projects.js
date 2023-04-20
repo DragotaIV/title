@@ -97,7 +97,8 @@ export const Projects = () => {
                           name={project.name}
                           category={project.category}
                           imgUrl={project.imgUrl}
-                          gitHub={project.gitGub}
+                          projectUrl={project.projectUrl}
+                          gitHub={project.gitHub}
                         />
                       ))
                     )}
