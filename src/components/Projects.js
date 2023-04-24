@@ -56,7 +56,7 @@ export const Projects = () => {
             <Nav
               variant="pills"
               className="nav-pills
-                mb-5 justify-content-center align-content-center"
+                mb-5 justify-content-center align-content-center "
               id="pills-tab"
             >
               {isLoading ? (
@@ -75,7 +75,7 @@ export const Projects = () => {
                 ))
               )}
             </Nav>
-            <Tab.Content>
+            <Tab.Content >
               {cats.map(cat => (
                 <Tab.Pane eventKey={cat.name} key={cat.id}>
                   <Row>

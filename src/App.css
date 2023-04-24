@@ -327,14 +327,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 80%;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
   padding: 0;
-
 }
+
+@media (max-width:500px) {
+	.project .nav.nav-pills {
+		flex-direction: column;
+	}
+}
+
 .project .nav.nav-pills .nav-item {
   width: 25%;
+  min-width: 100px;
 }
+
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
@@ -362,27 +369,45 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
-
 }
+
 .project .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
+
 .nav-link#projects-tabs-tab-All {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
 }
+
+@media (max-width:500px) {
+	.nav-link#projects-tabs-tab-All{
+    border-radius: 0;
+	}
+}
+
 .nav-link#projects-tabs-tab-Landing {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
 }
 .nav-link#projects-tabs-tab-JS {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
 }
 .nav-link#projects-tabs-tab-React {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0px 55px 55px 0px;
 }
+@media (max-width:500px) {
+  .nav-link#projects-tabs-tab-React {
+    border-radius: 0;
+	}
+}
+
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
@@ -392,8 +417,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-loader {
   position: relative;
-  /* border-radius: 30px;
-  overflow: hidden; */
   margin-bottom: 24px;
 }
 
@@ -450,8 +473,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
-
-
 
 .App {
   text-align: center;
