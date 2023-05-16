@@ -55,5 +55,21 @@
    "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/todo_list.png",
    "projectUrl": "https://dragotaiv.github.io/Todo-list/",
    "gitHub": "https://github.com/DragotaIV/Todo-list"
-  }
+  },
+  {
+    "id": 8,
+    "name": "Comfy store",
+    "category": "React",
+    "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/comfy_store.png",
+    "projectUrl": "https://shop-comfy.netlify.app/",
+    "gitHub": "https://github.com/DragotaIV/Comfy_store"
+   },
+   {
+    "id": 9,
+    "name": "Cart",
+    "category": "React",
+    "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/cart_redux_toolkit.png",
+    "projectUrl": "https://dragotaiv.github.io/cart_redux_toolkit/",
+    "gitHub": "https://github.com/DragotaIV/cart_redux_toolkit"
+   }
  ]
