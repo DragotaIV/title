@@ -3,7 +3,7 @@
    "id": 1,
    "name": "Miami",
    "category": "Landing",
-   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/miami.png",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/react_images/main/src/img/miami.png",
    "projectUrl": "https://dragotaiv.github.io/layout_miami/",
    "gitHub": "https://github.com/DragotaIV/Miami-landing"
 
@@ -12,7 +12,7 @@
    "id": 2,
    "name": "Museum",
    "category": "Landing",
-   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/museum.png",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/react_images/main/src/img/museum.png",
    "projectUrl": "https://dragotaiv.github.io/Museum-landing/",
    "gitHub": "https://github.com/DragotaIV/Museum-landing"
   },
@@ -20,7 +20,7 @@
    "id": 3,
    "name": "Pig game",
    "category": "JS",
-   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/pig_game.png",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/react_images/main/src/img/pig_game.png",
    "projectUrl": "https://dragotaiv.github.io/Pig_game/",
    "gitHub": "https://github.com/DragotaIV/Pig_game"
   },
@@ -28,7 +28,7 @@
    "id": 4,
    "name": "I guess",
    "category": "JS",
-   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/guess_my_number.png",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/react_images/main/src/img/guess_my_number.png",
    "projectUrl": "https://dragotaiv.github.io/Guess_my_number/",
    "gitHub": "https://github.com/DragotaIV/Guess_my_number"
   },
@@ -36,7 +36,7 @@
    "id": 5,
    "name": "2048 game",
    "category": "JS",
-   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/2048.png",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/react_images/main/src/img/2048.png",
    "projectUrl": "https://dragotaiv.github.io/2048-game/",
    "gitHub": "https://github.com/DragotaIV/2048-game"
   },
@@ -44,7 +44,7 @@
    "id": 6,
    "name": "Parfumer",
    "category": "React",
-   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/parfumer.png",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/react_images/main/src/img/parfumer.png",
    "projectUrl": "https://dragotaiv.github.io/React_Parfumer/",
    "gitHub": "https://github.com/DragotaIV/React_Parfumer"
   },
@@ -52,7 +52,7 @@
    "id": 7,
    "name": "Todo list",
    "category": "React",
-   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/todo_list.png",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/react_images/main/src/img/todo_list.png",
    "projectUrl": "https://dragotaiv.github.io/Todo-list/",
    "gitHub": "https://github.com/DragotaIV/Todo-list"
   },
@@ -60,7 +60,7 @@
     "id": 8,
     "name": "Comfy store",
     "category": "React",
-    "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/comfy_store.png",
+    "imgUrl": "https://raw.githubusercontent.com/DragotaIV/react_images/main/src/img/comfy_store.png",
     "projectUrl": "https://shop-comfy.netlify.app/",
     "gitHub": "https://github.com/DragotaIV/Comfy_store"
    },
@@ -68,7 +68,7 @@
     "id": 9,
     "name": "Cart",
     "category": "React",
-    "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/cart_redux_toolkit.png",
+    "imgUrl": "https://raw.githubusercontent.com/DragotaIV/react_images/main/src/img/cart_redux_toolkit.png",
     "projectUrl": "https://dragotaiv.github.io/cart_redux_toolkit/",
     "gitHub": "https://github.com/DragotaIV/cart_redux_toolkit"
    }

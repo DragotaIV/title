@@ -53,7 +53,7 @@ export const NavBar = () => {
                 <img src={github} alt="" />
               </a>
               <a
-                href="https://drive.google.com/file/d/1VczsuK_0e2hGiAbOC9ADP_mhCBztVdyl/view?usp=sharing"
+                href="https://drive.google.com/file/d/1jrV_rEHr-9nnPmsM7v8jARBLXzRhJB_g/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
