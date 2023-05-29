@@ -16,7 +16,7 @@ export const Projects = () => {
       id: 3, name: 'JS',
     },
     {
-      id: 4, name: 'React',
+      id: 4, name: 'React_Vue',
     },
   ];
 
